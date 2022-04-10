@@ -1,0 +1,22 @@
+#virtual environment
+venv/
+
+#Flask
+instance/*
+!instance/.gitignore
+.webassets-cache
+
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*egg-info/
+
+#Flask.Python Stack
+#Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
